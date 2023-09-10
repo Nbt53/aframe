@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <a-ocean color="#92E2E2" width="25" depth="25" density="7" speed="1"></a-ocean>
+
+        <a-tube path="-5 0 -10, -3 4 -10, -1 0 -10, 1 4 -10" radius="0.5"  material="src: url(./skin.jpg)"></a-tube>
+        <a-tube path="2 0 -10, 2 4 -10, 4 4 -10, 4 3 -10, 2 2 -10, 4 2 -10, 4 1 -10, 2 0 -10 " radius="0.5" material="src: url(./skin.jpg)"></a-tube>
+        <a-tube path="8 0 -10, 8 4 -10, 6 4 -10, 10 4 -10" radius="0.5" material="src: url(./skin.jpg)"></a-tube>
+        <!-- <a-plane color="grey" position="0 0 0" width="10" height="10" rotation="-90 0 0"></a-plane>
+        <a-sky color="blue"></a-sky>
+        <a-box width="2" height="2" position="-2 1 -1" color="pink"></a-box> -->
+    </a-scene>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
